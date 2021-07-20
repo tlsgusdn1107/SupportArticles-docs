@@ -77,7 +77,7 @@ typedef priority_queue<int,INTDQU, greater<int> > INTPRQUE;
 typedef vector<char, allocator<char> > CHVECTOR;
 typedef priority_queue<char,CHVECTOR,less<char> > CHPRQUE;
 
-void main(void)
+int main()
 {
     int size_q;
     INTPRQUE q;
@@ -131,7 +131,7 @@ void main(void)
 Program output:
 
 ```console
-4
+42
 size of q is:4
 42
 49
